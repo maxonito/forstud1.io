@@ -1,0 +1,19 @@
+.inner-main-text {
+  width: 60%;
+  float: left;
+  margin-bottom: 40px;
+}
+.inner-main-img {
+  display: inline-block;
+  float: right;
+  width: 35%;
+  border: 2px solid #7f7f7f;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.inner-main-title {
+  text-align: right;
+  text-transform: uppercase;
+  color: #b7b7b7;
+  font-style: italic;
+}

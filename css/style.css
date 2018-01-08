@@ -1,0 +1,159 @@
+/*Подключение шрифта*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.container {
+  margin: auto;
+  width: 960px;
+}
+.clear {
+  content: "";
+  clear: both;
+  height: 0;
+}
+.content-right {
+  float: right;
+}
+.content-left {
+  float: left;
+}
+p {
+  text-indent: 30px;
+}
+.header {
+  background: #ffffff url(../images/header-bg.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.header-logo {
+  margin-right: 80px;
+  float: left;
+  text-align: left;
+}
+
+.header-logo-caption {
+  margin-top: 15px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #fe7d7d;
+}
+.header-logo-name {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.header-logo-img {
+  display: inline-block;
+  max-width: 100px;
+  margin-left: 80px;
+}
+.nav {
+  width: 100%;
+  text-align: center;
+  background-color: #333333;
+}
+.nav-list {
+  list-style: none;
+  margin: 0;
+}
+.nav-list-link {
+  display: inline-block;
+  padding: 10px 40px;
+}
+.main {
+  padding: 70px 0px;
+  min-height: 500px;
+}
+.main-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 30px 30px;
+  color: #990000;
+}
+.main-text {
+  width: 60%;
+  line-height: 20px;
+}
+.main-img {
+  width: 40%;
+}
+.main-subtitle {
+  text-align: right;
+  text-transform: uppercase;
+  color: #b7b7b7;
+  font-style: italic;
+}
+.image-bg {
+  background: #ffffff url(../images/image-bg.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 250px;
+}
+.section-1 {
+  padding: 70px 0 40px;
+}
+.section-1-right {
+  width: 60%;
+}
+.section-1-left {
+  width: 40%;
+}
+.section-1-img {
+  margin-top: 100px;
+  width: 350px;
+}
+.section-1-title {
+  text-align: right;
+  text-transform: uppercase;
+  color: #b7b7b7;
+  font-style: italic;
+}
+.section-1-secondary {
+  font-weight: 300;
+}
+.footer {
+  padding-top: 10px;
+  background-color: #000;
+  color: #fff;
+}
+.footer-nav {
+  text-align: center;
+}
+.footer-list {
+  list-style: none;
+  margin: 40px;
+
+}
+.footer-list-link {
+  display: inline-block;
+}
+.footer-left {
+  width: 30%;
+  float: left;
+  font-size: 14px;
+}
+.footer-adress {
+  line-height: 20px;
+}
+.footer-banners {
+  margin-top: 50px;
+}
+.footer-banners img {
+  width: 88px;
+  height: 31px;
+}
+.footer-right {
+  width: 30%;
+  float: right;
+  font-size: 14px;
+  text-align: left;
+}
+.footer .copyright {
+  margin: 50px 0 40px 20px;
+}
